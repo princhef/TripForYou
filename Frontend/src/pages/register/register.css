@@ -1,0 +1,47 @@
+.regist{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    background-image: url("../../images/wallpaper2.jpg");
+    background-size: cover;
+}
+.regContainer{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    margin-top:40vh;
+}
+#username{
+    height: 30px;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+}
+#password{
+    height: 30px;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+}
+#email{
+    height: 30px;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.lButton{
+    height: 50px;
+    padding:10px;
+    background-color: #45e4ea;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.lButton:hover{
+    background-color: #9addec;
+}
